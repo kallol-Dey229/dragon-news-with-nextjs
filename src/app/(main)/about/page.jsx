@@ -1,4 +1,6 @@
-
+export const metadata = {
+  title: "Dragon news - about us",
+};
 
 const AboutPage = () => {
     return (
