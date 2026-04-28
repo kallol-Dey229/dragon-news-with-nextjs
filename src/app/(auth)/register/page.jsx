@@ -1,6 +1,7 @@
 'use client'
 import { authClient } from '@/lib/auth-client';
 import Link from 'next/link';
+import { redirect } from 'next/navigation';
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
@@ -28,6 +29,7 @@ const RegisterPage = () => {
 
         if (res) {
             toast.success('Registration Successful');
+            redirect('/login')
         }
 
     }
