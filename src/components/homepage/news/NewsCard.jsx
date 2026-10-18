@@ -4,7 +4,7 @@ import React from 'react';
 import { CiBookmark, CiShare2, CiStar } from 'react-icons/ci';
 import { FaEye } from 'react-icons/fa';
 import { IoStar } from 'react-icons/io5';
-//
+
 const NewsCard = ({ news }) => {
     return (
         <div className="card bg-base-100 shadow-sm">
