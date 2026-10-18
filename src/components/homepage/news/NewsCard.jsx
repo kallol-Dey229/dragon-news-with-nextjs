@@ -10,7 +10,6 @@ const NewsCard = ({ news }) => {
         <div className="card bg-base-100 shadow-sm">
             <div className="card-body">
 
-                {/* author info */}
 
                 <div className='flex justify-between items-center bg-slate-200 p-4'>
                     <div className='flex gap-4 items-center'>
