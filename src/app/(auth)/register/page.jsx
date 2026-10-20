@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { toast } from 'react-toastify';
-
+//
 const RegisterPage = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const [isShowPassword, setIsShowPassword] = useState(false);
