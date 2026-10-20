@@ -4,7 +4,7 @@ import userAvatar from '@/assets/user.png'
 import Image from 'next/image';
 import NavLink from './NavLink';
 import { authClient } from '@/lib/auth-client';
-//
+
 const Navbar = () => {
     const { data: session, isPending } = authClient.useSession();
     const user = session?.user;
