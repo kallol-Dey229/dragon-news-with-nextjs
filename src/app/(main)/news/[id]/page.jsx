@@ -5,7 +5,7 @@ import { BsArrowBarRight, BsArrowRight } from "react-icons/bs";
 import { CiBookmark, CiShare2 } from "react-icons/ci";
 import { FaEye } from "react-icons/fa";
 import { IoStar } from "react-icons/io5";
-//
+
 export const generateMetadata = async ({params}) =>{
     const {id} = await params;
     const news = await getNewsDetailsById(id);
