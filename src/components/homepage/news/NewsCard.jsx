@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { CiBookmark, CiShare2, CiStar } from 'react-icons/ci';
+import { CiBookmark, CiShare2 } from 'react-icons/ci';
 import { FaEye } from 'react-icons/fa';
 import { IoStar } from 'react-icons/io5';
 
