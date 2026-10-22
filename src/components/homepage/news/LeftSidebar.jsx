@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const LeftSidebar = ({ categories, activeId }) => {
 
-//
+
     return (
         <div>
             <h2 className="font-bold text-xl ">All categories</h2>
